@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  margin: 10rem 0rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.banner-serve {
+  padding: 0.2rem 0.5rem;
+  background-color: #777;
+  color: white;
+  display: inline-block;
+  margin: 2px;
+}
+
+.banner-actions{
+  background: 0 0;
+  color: #a80080;
+  border: 1px solid #a80080;
+  margin: 0.1rem;
+  display: inline;
+}
+.ant-modal-body .ant-row{
+  margin:10px 0;;
+}
+.ant-form-horizontal .ant-form-item-label{
+  text-align: left;
+  text-transform: capitalize;
+}
+label{
+  padding: 0 3px;
+}
+.Sort-btn,.add-banner{
+  background: 0 0;
+    color: #a80080;
+    border: 1px solid #a80080;
+    margin: 0.1rem;
+    display: inline;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 90%;
+}
